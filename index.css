@@ -1,0 +1,188 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#fdf6ee;
+}
+
+
+.navbar{
+    background:#3E2723;
+    color:white;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 8%;
+    position:sticky;
+    top:0;
+    z-index:100;
+}
+
+.logo{
+    font-size:30px;
+    font-weight:bold;
+    color:#D4A373;
+}
+
+.nav-links{
+    display:flex;
+    list-style:none;
+    gap:25px;
+}
+
+.nav-links a{
+    text-decoration:none;
+    color:white;
+    transition:0.3s;
+}
+
+.nav-links a:hover{
+    color:#D4A373;
+}
+
+
+.hero{
+    height:100vh;
+    background:url("https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=1600");
+    background-size:cover;
+    background-position:center;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+}
+
+.hero-content{
+    background:rgba(0,0,0,0.5);
+    padding:40px;
+    border-radius:20px;
+    color:white;
+}
+
+.hero h1{
+    font-size:60px;
+}
+
+.hero p{
+    margin:20px 0;
+    font-size:18px;
+}
+
+.btn{
+    text-decoration:none;
+    background:#D4A373;
+    color:white;
+    padding:15px 30px;
+    border-radius:30px;
+    transition:0.4s;
+}
+
+.btn:hover{
+    background:#6F4E37;
+}
+
+
+section{
+    padding:80px 10%;
+}
+
+h2{
+    text-align:center;
+    color:#3E2723;
+    margin-bottom:40px;
+    font-size:40px;
+}
+
+.about{
+    text-align:center;
+    font-size:18px;
+    color:#555;
+}
+
+
+.cards{
+    display:flex;
+    gap:30px;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+
+.card{
+    background:white;
+    width:300px;
+    border-radius:20px;
+    overflow:hidden;
+    box-shadow:0 5px 15px rgba(0,0,0,0.2);
+    transition:0.4s;
+}
+
+.card:hover{
+    transform:translateY(-10px);
+}
+
+.card img{
+    width:100%;
+    height:250px;
+    object-fit:cover;
+}
+
+.card h3{
+    text-align:center;
+    margin-top:15px;
+    color:#6F4E37;
+}
+
+.card p{
+    text-align:center;
+    margin:15px;
+}
+
+
+.why-box{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+}
+
+.why-box div{
+    background:white;
+    padding:30px;
+    text-align:center;
+    border-radius:20px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+
+
+.review-card{
+    background:white;
+    width:300px;
+    padding:30px;
+    text-align:center;
+    border-radius:20px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+
+
+footer{
+    background:#3E2723;
+    color:white;
+    text-align:center;
+    padding:40px;
+}
+
+.social{
+    margin:20px 0;
+}
+
+.social i{
+    font-size:25px;
+    margin:10px;
+    color:#D4A373;
+    cursor:pointer;
+}
+
+
